@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+        <members>CEO</members>
+		<members>CFO</members>
+        <members>COO</members>
+        <members>SVPCustomerServiceSupport</members>
+        <members>SVPSalesMarketing</members>
+        <members>SVPHumanResources</members>
+        <members>CustomerSupportInternational</members>
+        <members>CustomerSupportNorthAmerica</members>
+		<members>VPInternationalSales</members>
+		<members>VPNorthAmericanSales</members>
+        <members>VPMarketing</members>
+        <members>DirectorDirectSales</members>
+        <members>DirectorChannelSales</members>
+		<members>InstallationRepairServices</members>
+		<members>MarketingTeam</members>
+        <members>WesternSalesTeam</members>
+        <members>EasternSalesTeam</members>
+        <members>ChannelSalesTeam</members>
+        <name>Role</name>
+    </types>
+	<version>26.0</version>
+</Package>
