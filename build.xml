@@ -5,12 +5,17 @@
 	<!-- Shows deploying code & running tests for code in directory -->
     <target name="deployCode">
       <!-- Upload the contents of the "codepkg" directory, running the tests for just 1 class -->
-      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="src">
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="pkg1">
       </sf:deploy>
     </target>
 
     <!-- Shows removing code; only succeeds if done after deployCode -->
     <target name="undeployCode">
-      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="src"/>
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="pkg2"/>
     </target>
+
+   <target name ="self-destruct">
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="pkg1"/>
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="pkg2"/>
+   </target>
 </project>

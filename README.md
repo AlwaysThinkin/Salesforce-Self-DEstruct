@@ -17,13 +17,17 @@ Cases
 Photos
 Contacts
 Accounts
+Solutions
+Campaigns
 
 For which the following Apex Code will delete EVERYTHING. This is easiest to run from the Developer Console but I think can be built into an automated script to run on install.
 
+Delete [Select ID from Campaign];
 Delete [Select ID from Opportunity];
 Delete [Select ID from Contract];
 Delete [Select ID from Lead];
 Delete [Select ID from Case];
+Delete [Select ID from Solution];
 Delete [Select ID from Contact];
 Delete [Select ID from Account];
 Delete [Select ID from FeedItem];
