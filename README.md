@@ -34,4 +34,3 @@ Delete [Select ID from FeedItem];
 
 A potential refinement would be to add a filter to the query that matches the record CreateDate to that of the org itself if there is such a global variable.
 This would ensure that if the script is run in an org with subsequently added data that only the pre-populated data is deleted.
-
