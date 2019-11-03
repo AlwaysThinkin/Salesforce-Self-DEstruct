@@ -9,7 +9,7 @@ This project will provide tools for removing the metadata through the API that c
 
 Additionally, there is sample data for which an Apex class can be implemented. After solving the metadata removal, I will be adding a scheduled class that will remove all the data upon install.
 
-The Sample Data consists of:
+The Sample Data consists of data in the following standard objects:
 Opportunities
 Contracts
 Leads
